@@ -1,0 +1,91 @@
+h1 {
+  width: 400px;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 400px;
+  height: 380px;
+  border-radius: 15px;
+}
+
+.display {
+  border: 1px solid black;
+  width: 398px;
+  height: 80px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#displayNumber {
+  font-size: 65px;
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+  border: 1px solid black;
+  width: 398px;
+  height: 58px;
+}
+
+.row5 {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.clear {
+  border-right: 1px solid black;
+  width: 297px;
+  height: 58px;
+  float: left;
+  background-color: #e03838;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.division, .multiplication, .subtraction, .addition, .equal {
+  border-left: 1px solid black;
+  width: 99px;
+  height: 58px;
+  float: right;
+  background-color: orange;
+}
+
+.seven, .eight, .nine, .four, .five, .six, .one, .two, .three {
+  border-right: 1px solid black;
+  width: 97px;
+  height: 58px;
+  float: left;
+}
+
+.eight, .nine, .five, .six, .two, .three {
+  border-left: 1px solid black;
+}
+
+.nine, .six, .three {
+  width: 99px;
+}
+
+.zero {
+  border-right: 1px solid black;
+  width: 297px;
+  height: 58px;
+  float: left;
+  border-bottom-left-radius: 12px;
+}
+
+.equal {
+  border-bottom-right-radius: 13px;
+  height: 57px;
+}
+
+.row1 :hover, .row2 :hover, .row3 :hover, .row4 :hover, .row5 :hover {
+  background-color: black;
+  color: white;
+}
